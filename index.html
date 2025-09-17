@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>LTA-L2S</title>
+    <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <h1 class="title is-1 publication-title">...</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Abstract</h2>
+                <div class="content has-text-justified">
+                    <p>
+                        ...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End paper abstract -->
+<script>
+    var CNCVS_ID1 = [
+        "s02075_001_00005.mp4",
+        "s01947_001_00016.mp4",
+        "s01831_001_00015.mp4",
+        "s01453_001_00035.mp4",
+        "s01425_001_00026.mp4",
+        "s01955_001_00008.mp4",
+        "s01905_001_00006.mp4",
+        "s01285_001_00041.mp4"
+    ];
+    var CNCVS_TEXT1 = [
+        "而我们的专家有多少",
+        "呃非常大的一个突破",
+        "想到这个问题以后呢我就去想我要去了解一下动物是怎么样生活的",
+        "嗯包括我相信也会有很多",
+        "啊因为我们通过不断的去发现美不断的去创造美不断的去传递美",
+        "任何一个物质它的原子是它的最基本的单元那任何一个化学反应这个原子是",
+        "我也不满足于看别人怎么做实验也想自己来尝试进行实验",
+        "灭活的这个病毒在身上然后让你的身体产生"
+    ];
+    var CNCVS_ID2 = [
+        "s01823_001_00004.mp4",
+        "s01329_001_00054.mp4",
+        "s01769_001_00034.mp4",
+        "s01573_001_00044.mp4",
+        "s01827_001_00027.mp4"
+    ];
+    var CNCVS_TEXT2 = [
+        "我们提出了一个目标就是在",
+        "所以呢反对家庭暴力呢我们永远在行动",
+        "那个时候我们完全想象不到是现在这个样子",
+        "所以对于孩子们的好奇心",
+        "甚至我们会把一些"
+    ]
+
+</script>
+
+
+<section class="hero is-small">
+    <div class="hero-body">
+        <div class="container">
+            <h2 class="title is-4" style="margin-left: -200px">Generated Samples on CNCVS</h2>
+            <table border="0" style="width: 150%; margin-left: -200px;">
+                <thead>
+                <tr>
+                    <th style="background-color:white; position: sticky; top: 0;width: 12.5%; text-align: center; padding: 20px; color:black">
+                        Silent Video
+                    </th>
+                    <th style="background-color:white; position: sticky; top: 0;width: 12.5%; text-align: center; padding: 20px; color:black">
+                        Ground Truth
+                    </th>
+                    <th style="background-color:white; position: sticky; top: 0;width: 12.5%; text-align: center; padding: 20px; color:black">
+                        VCA-GAN
+                    </th>
+                    <th style="background-color:white; position: sticky; top: 0;width: 12.5%; text-align: center; padding: 20px; color:black">
+                        SVTS
+                    </th>
+                    <th style="background-color:white; position: sticky; top: 0;width: 12.5%; text-align: center; padding: 20px; color:black">
+                        Multi-task
+                    </th>
+                    <th style="background-color:white; position: sticky; top: 0;width: 12.5%; text-align: center; padding: 20px; color:black">
+                        Intelligible
+                    </th>
+                    <th style="background-color:white; position: sticky; top: 0;width: 12.5%; text-align: center; padding: 20px; color:black">
+                        LTBS
+                    </th>
+                    <th style="background-color:white; position: sticky; top: 0;width: 12.5%; text-align: center; padding: 20px; color:black">
+                        Proposed
+                    </th>
+                    <th style="background-color:white; position: sticky; top: 0;width: 20%; text-align: center; padding: 20px; color:black">
+                        Text
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                <script>
+                    for (var i = 0; i < CNCVS_ID1.length; i++) {
+                        document.write("<tr>");
+                        document.write("<td align=\"center\"><video class=\"fixed-size\" poster=\"\" controls><source src=\"static/video/silent/" + CNCVS_ID1[i] + "\" type=\"video/mp4\"></video></td>");
+                        document.write("<td align=\"center\"><video class=\"fixed-size\" poster=\"\" controls><source src=\"static/video/gt/" + CNCVS_ID1[i] + "\" type=\"video/mp4\"></video></td>");
+                        document.write("<td align=\"center\"><video class=\"fixed-size\" poster=\"\" controls><source src=\"static/video/vcagan/" + CNCVS_ID1[i] + "\" type=\"video/mp4\"></video></td>");
+                        document.write("<td align=\"center\"><video class=\"fixed-size\" poster=\"\" controls><source src=\"static/video/svts/" + CNCVS_ID1[i] + "\" type=\"video/mp4\"></video></td>");
+                        document.write("<td align=\"center\"><video class=\"fixed-size\" poster=\"\" controls><source src=\"static/video/mt/" + CNCVS_ID1[i] + "\" type=\"video/mp4\"></video></td>");
+                        document.write("<td align=\"center\"><video class=\"fixed-size\" poster=\"\" controls><source src=\"static/video/unit/" + CNCVS_ID1[i] + "\" type=\"video/mp4\"></video></td>");
+                        document.write("<td align=\"center\"><video class=\"fixed-size\" poster=\"\" controls><source src=\"static/video/ltbs/" + CNCVS_ID1[i] + "\" type=\"video/mp4\"></video></td>");
+                        document.write("<td align=\"center\"><video class=\"fixed-size\" poster=\"\" controls><source src=\"static/video/proposed/" + CNCVS_ID1[i] + "\" type=\"video/mp4\"></video></td>");
+                        document.write("<td align=\"center\" class=\"limited-width\">" + CNCVS_TEXT1[i] + "</td>");
+                        document.write("</tr>");
+                    }
+                </script>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+
+<section class="hero is-small is-light">
+    <div class="hero-body">
+        <div class="container">
+            <h2 class="title is-4" style="margin-left: -200px">Ablation Study Samples on CNCVS</h2>
+            <table border="0" style="width: 150%; margin-left: -200px;">
+                <thead>
+                    <th style="background-color:white; position: sticky; top: 0;width: 12.5%; text-align: center; padding: 20px; color:black">
+                        Ground Truth
+                    </th>
+                    <th style="background-color:white; position: sticky; top: 0;width: 12.5%; text-align: center; padding: 20px; color:black">
+                        Proposed
+                    </th>
+                    <th style="background-color:white; position: sticky; top: 0;width: 12.5%; text-align: center; padding: 20px; color:black">
+                        w/o postnet
+                    </th>
+                    <th style="background-color:white; position: sticky; top: 0;width: 12.5%; text-align: center; padding: 20px; color:black">
+                        w/o f0flow
+                    </th>
+                    <th style="background-color:white; position: sticky; top: 0;width: 12.5%; text-align: center; padding: 20px; color:black">
+                        w/o pitch
+                    </th>
+                    <th style="background-color:white; position: sticky; top: 0;width: 12.5%; text-align: center; padding: 20px; color:black">
+                        w/o unit
+                    </th>
+                    <th style="background-color:white; position: sticky; top: 0;width: 12.5%; text-align: center; padding: 20px; color:black">
+                        HuBERT Unit
+                    </th>
+                    <th style="background-color:white; position: sticky; top: 0;width: 12.5%; text-align: center; padding: 20px; color:black">
+                        Random Init.
+                    </th>
+                    <th style="background-color:white; position: sticky; top: 0;width: 20%; text-align: center; padding: 20px; color:black">
+                        Text
+                    </th>
+                </thead>
+                <tbody>
+                <script>
+                    for (var i = 0; i < CNCVS_ID2.length; i++) {
+                        document.write("<tr>");
+                        document.write("<td align=\"center\"><video class=\"fixed-size\" poster=\"\" controls><source src=\"static/video/gt/" + CNCVS_ID2[i] + "\" type=\"video/mp4\"></video></td>");
+                        document.write("<td align=\"center\"><video class=\"fixed-size\" poster=\"\" controls><source src=\"static/video/proposed/" + CNCVS_ID2[i] + "\" type=\"video/mp4\"></video></td>");
+                        document.write("<td align=\"center\"><video class=\"fixed-size\" poster=\"\" controls><source src=\"static/video/ab_postnet/" + CNCVS_ID2[i] + "\" type=\"video/mp4\"></video></td>");
+                        document.write("<td align=\"center\"><video class=\"fixed-size\" poster=\"\" controls><source src=\"static/video/ab_f0cfm/" + CNCVS_ID2[i] + "\" type=\"video/mp4\"></video></td>");
+                        document.write("<td align=\"center\"><video class=\"fixed-size\" poster=\"\" controls><source src=\"static/video/ab_pitch/" + CNCVS_ID2[i] + "\" type=\"video/mp4\"></video></td>");
+                        document.write("<td align=\"center\"><video class=\"fixed-size\" poster=\"\" controls><source src=\"static/video/ab_unit/" + CNCVS_ID2[i] + "\" type=\"video/mp4\"></video></td>");
+                        document.write("<td align=\"center\"><video class=\"fixed-size\" poster=\"\" controls><source src=\"static/video/ab_hubert/" + CNCVS_ID2[i] + "\" type=\"video/mp4\"></video></td>");
+                        document.write("<td align=\"center\"><video class=\"fixed-size\" poster=\"\" controls><source src=\"static/video/ab_init/" + CNCVS_ID2[i] + "\" type=\"video/mp4\"></video></td>");
+                        document.write("<td align=\"center\" class=\"limited-width\">" + CNCVS_TEXT2[i] + "</td>");
+                        document.write("</tr>");
+                    }
+                </script>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<style>
+    .fixed-size {
+        width: 200px;
+        height: 200px; /* Adjust height as needed */
+        object-fit: cover; /* Ensure the video fills the area */
+    }
+</style>
+<style>
+.limited-width {
+    width: 300px;
+    max-height: 6em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+}
+
+
+</style>
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-8">
+                <div class="content">
+
+                    <p>
+                        This page was built using the <a
+                            href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic
+                        Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io"
+                                                                                target="_blank">Nerfies</a> project
+                        page.
+                        <br> This website is licensed under a <a rel="license"
+                                                                         href="http://creativecommons.org/licenses/by-sa/4.0/"
+                                                                         target="_blank">Creative
+                        Commons Attribution-ShareAlike 4.0 International License</a>.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+<!-- End of Statcounter Code -->
+
+</body>
+</html>
