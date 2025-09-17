@@ -30,7 +30,7 @@
         <div class="container is-max-desktop">
             <div class="columns is-centered">
                 <div class="column has-text-centered">
-                    <h1 class="title is-1 publication-title">...</h1>
+                    <h1 class="title is-1 publication-title">LTA-L2S: Lexical Tone-Aware Lip-to-Speech Synthesis for Mandarin with Cross-Lingual Transfer Learning</h1>
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@
                 <h2 class="title is-3">Abstract</h2>
                 <div class="content has-text-justified">
                     <p>
-                        ...
+                        Lip-to-speech (L2S) synthesis for Mandarin is a significant challenge, hindered by complex viseme-to-phoneme mappings and the critical role of lexical tones in intelligibility. To address this, we propose Lexical Tone-Aware Lip-to-speech (LTA-L2S). To tackle viseme-to-phoneme complexity, our model adapts a English pre-trained audio-visual self-supervised learning (SSL) model via a cross-lingual transfer learning strategy. This strategy not only transfers universal knowledge learned from extensive English data to the Mandarin domain but also circumvents the prohibitive cost of training such a model from scratch. To specifically model lexical tones and enhance intelligibility, we employ a flow-matching generative model to predict the F0 contour. This generation process is guided by discrete speech units, which contain crucial suprasegmental information, are extracted by an ASR-fine-tuned SSL speech model. The overall speech quality is then elevated through a two-stage training process, where a flow-matching postnet refines the coarse spectrogram from the first stage to improve naturalness. Extensive experiments demonstrate that LTA-L2S significantly outperforms existing methods in both speech intelligibility and tonal accuracy.
                     </p>
                 </div>
             </div>
